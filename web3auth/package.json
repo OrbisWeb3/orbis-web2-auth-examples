@@ -1,0 +1,22 @@
+{
+  "name": "web3auth",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "svelte": "^4.0.5",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@orbisclub/orbis-sdk": "^0.4.87",
+    "@web3auth/modal": "^6.1.8",
+    "ethers": "^6.7.1",
+    "vite-plugin-node-polyfills": "^0.12.0"
+  }
+}
